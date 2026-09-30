@@ -1,0 +1,30 @@
+Sam Taylor
+
+sam.taylor@example.com | +1 555-010-5227
+
+
+SUMMARY
+
+Operations coordinator with 5 years of experience supporting project delivery,
+vendor management, and executive reporting.
+
+
+SKILLS
+
+Excel, PowerPoint, project coordination, vendor management, budgeting, Jira
+
+
+EXPERIENCE
+
+Senior Operations Coordinator, Atlas Services | 2021-present
+- Maintained project schedules, budgets, and monthly executive status reports.
+- Coordinated vendors and tracked service-level agreements.
+- Created Excel trackers using pivot tables and lookup formulas.
+
+Project Assistant, Harbor Group | 2019-2021
+- Organized meetings, prepared presentations, and maintained project records.
+
+
+EDUCATION
+
+BA Business Administration, Central College, 2019

@@ -1,0 +1,24 @@
+Ethan Davis
+ethan.davis@example.com | +1 555-011-0748
+
+SUMMARY
+
+Quality assurance engineer with 6 years of experience in test automation.
+
+SKILLS
+
+Python, Selenium, Playwright, pytest, REST API testing, Jenkins, Docker, Jira
+
+EXPERIENCE
+
+Senior QA Engineer, Product Forge | 2020-present
+- Developed Python and pytest automation for web and REST API products.
+- Maintained Jenkins pipelines and Docker-based test environments.
+- Led test planning and coached two QA analysts.
+
+QA Analyst, Bright Retail | 2018-2020
+- Executed functional and regression testing for ecommerce applications.
+
+EDUCATION
+
+BSc Information Technology, South College, 2018

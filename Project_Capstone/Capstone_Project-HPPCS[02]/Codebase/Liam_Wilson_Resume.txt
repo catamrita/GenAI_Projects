@@ -1,0 +1,21 @@
+Liam Wilson
+liam.wilson@example.com | +1 555-010-7430
+
+SUMMARY
+Senior Java engineer with 8 years of experience building transaction services.
+
+SKILLS
+Java, Spring Boot, Oracle, SQL, Docker, Kubernetes, Azure, Kafka, Jenkins
+
+EXPERIENCE
+Senior Software Engineer, Capital Systems | 2020-present
+- Designed Spring Boot APIs processing high-volume financial transactions.
+- Deployed containerized services to Azure Kubernetes Service.
+- Led code reviews and mentored three junior developers.
+
+Software Engineer, Delta Commerce | 2016-2020
+- Built Java services backed by Oracle and Kafka.
+- Maintained Jenkins deployment pipelines.
+
+EDUCATION
+BSc Computer Engineering, Lakeside University, 2016

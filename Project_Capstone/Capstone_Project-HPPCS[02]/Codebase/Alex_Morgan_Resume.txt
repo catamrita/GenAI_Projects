@@ -1,0 +1,28 @@
+Alex Morgan
+alex.morgan@example.com | +1 555-010-2040
+https://www.linkedin.com/in/alex-morgan
+
+SUMMARY
+Backend engineer with 7 years of experience building Python services and data
+platforms. Experienced technical lead focused on maintainability and delivery.
+
+SKILLS
+Python, FastAPI, Django, PostgreSQL, SQL, Docker, Kubernetes, Azure, Kafka,
+pytest, mypy, GitHub Actions, Terraform
+
+EXPERIENCE
+Lead Backend Engineer, Northstar Analytics | 2022-present
+- Designed FastAPI services supporting 2 million requests per day.
+- Led the migration of data workloads to Azure Kubernetes Service.
+- Introduced typed Python, pytest coverage gates, and automated CI/CD checks.
+- Mentored four engineers and facilitated architecture reviews.
+
+Software Engineer, MarketWorks | 2019-2022
+- Built Django APIs backed by PostgreSQL and Kafka.
+- Containerized services with Docker and reduced deployment time by 40 percent.
+
+Junior Software Engineer, Bright Labs | 2017-2019
+- Developed Python automation and internal reporting tools.
+
+EDUCATION
+BSc Computer Science, State University, 2017

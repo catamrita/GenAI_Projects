@@ -1,0 +1,21 @@
+Jordan Lee
+jordan.lee@example.com | +1 555-010-4188
+
+SUMMARY
+Full-stack software engineer with 3 years of experience delivering web products.
+
+SKILLS
+JavaScript, TypeScript, React, Node.js, Python, Flask, MySQL, Docker, AWS
+
+EXPERIENCE
+Software Engineer, Cedar Applications | 2023-present
+- Built React interfaces and Node.js APIs for customer account workflows.
+- Maintained a small Flask service and wrote integration tests.
+- Deployed Docker containers to AWS using an existing CI pipeline.
+
+Associate Developer, Web Foundry | 2021-2023
+- Developed responsive web applications and maintained MySQL queries.
+- Participated in code reviews and sprint planning.
+
+EDUCATION
+BEng Software Engineering, Technical Institute, 2021

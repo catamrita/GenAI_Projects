@@ -1,0 +1,23 @@
+Maria Garcia
+maria.garcia@example.com | +1 555-010-6312
+
+SUMMARY
+Platform engineer with 6 years of experience operating cloud services and
+developer platforms, including 4 years writing production Python.
+
+SKILLS
+Python, Flask, PostgreSQL, Docker, Kubernetes, AWS, Terraform, GitLab CI,
+Prometheus, Linux
+
+EXPERIENCE
+Platform Engineer, Summit Cloud | 2021-present
+- Built Flask APIs used by internal deployment and observability tools.
+- Operated Kubernetes services on AWS and automated infrastructure with Terraform.
+- Added integration tests and GitLab CI quality gates for Python repositories.
+
+DevOps Engineer, Vector Systems | 2018-2021
+- Containerized legacy applications and administered PostgreSQL databases.
+- Created Python scripts for release automation and operational reporting.
+
+EDUCATION
+BSc Information Systems, Northern University, 2018

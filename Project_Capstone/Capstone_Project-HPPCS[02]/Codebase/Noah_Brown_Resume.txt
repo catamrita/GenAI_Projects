@@ -1,0 +1,20 @@
+Noah Brown
+noah.brown@example.com | +1 555-010-8564
+
+SUMMARY
+Python backend developer with 4 years of experience building web APIs and automation for logistics products.
+
+SKILLS
+Python, FastAPI, SQLAlchemy, PostgreSQL, Docker, pytest, AWS Lambda, GitHub Actions
+
+EXPERIENCE
+Backend Developer, Transit Labs | 2022-present
+- Developed FastAPI endpoints and PostgreSQL data models.
+- Added pytest suites and GitHub Actions workflows.
+- Packaged services in Docker and supported AWS deployments.
+
+Junior Developer, RouteWorks | 2020-2022
+- Built Python automation and maintained Flask applications.
+
+EDUCATION
+BSc Software Development, Metro College, 2020

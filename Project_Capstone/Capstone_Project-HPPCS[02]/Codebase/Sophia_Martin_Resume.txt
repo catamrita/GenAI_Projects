@@ -1,0 +1,22 @@
+Sophia Martin
+sophia.martin@example.com | +1 555-011-1859
+
+SUMMARY
+Technical product manager with 7 years of experience delivering B2B software and analytics products.
+
+SKILLS
+Product strategy, requirements, analytics, SQL, Agile, stakeholder management,
+roadmaps, Azure DevOps
+
+EXPERIENCE
+Senior Product Manager, Horizon Software | 2021-present
+- Defined roadmaps and requirements for an enterprise analytics platform.
+- Partnered with Python and data engineering teams on API product design.
+- Presented delivery metrics and customer insights to executive stakeholders.
+
+Product Owner, Digital Works | 2017-2021
+- Managed a backlog for reporting and workflow products.
+- Used SQL to investigate adoption and operational performance.
+
+EDUCATION
+MBA, Central Business School, 2017

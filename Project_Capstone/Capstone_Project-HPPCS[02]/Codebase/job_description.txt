@@ -1,0 +1,22 @@
+Senior Python Engineer
+
+We are looking for a Senior Python Engineer to build reliable backend services for
+our analytics platform. You will design APIs, improve data-processing workflows,
+review code, and help less experienced engineers grow.
+
+Required qualifications:
+- At least 5 years of professional software engineering experience.
+- Strong Python experience, mincluding testing and type-safe application design.
+- Production experience building REST APIs with FastAPI, Flask, or Django.
+- Solid SQL skills and experience with PostgreSQL.
+- Experience deploying containerized services with Docker.
+- Familiarity with cloud infrastructure on Azure or AWS.
+
+Preferred qualifications:
+- Experience with CI/CD pipelines and Kubernetes.
+- Knowledge of event-driven systems such as Kafka.
+- Experience mentoring engineers and leading technical design discussions.
+
+
+
+

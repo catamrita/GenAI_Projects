@@ -1,0 +1,20 @@
+Olivia Chen
+olivia.chen@example.com | +1 555-010-9672
+
+SUMMARY
+Data engineer with 5 years of experience creating cloud data pipelines and analytics services.
+
+SKILLS
+Python, SQL, PostgreSQL, Azure Data Factory, Databricks, Spark, Docker, Airflow, Terraform, dbt, Git
+
+EXPERIENCE
+Senior Data Engineer, Insight Works | 2021-present
+- Built Python and Spark pipelines on Azure Databricks.
+- Designed PostgreSQL data models and data-quality tests.
+- Containerized internal data APIs and automated releases.
+
+Data Engineer, Lakehouse Partners | 2019-2021
+- Orchestrated Airflow pipelines and developed Python ingestion services.
+
+EDUCATION
+MSc Data Science, East University, 2019

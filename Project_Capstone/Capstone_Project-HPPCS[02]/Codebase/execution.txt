@@ -1,0 +1,110 @@
+CV Sorting with a compatible model API
+======================================
+
+Before you start
+----------------
+
+Use Python 3.10 or later. Open a terminal in the Codebase folder; all commands
+below are run from that folder.
+
+The application uses two independently configurable chat models:
+
+- A fast model parses the job description and handles resume parsing fallback.
+- A capable reasoning model scores candidates and selects supporting evidence.
+
+The defaults are gpt-4o-mini and gpt-5.2. Replace either model name when your
+compatible API exposes different models.
+
+
+1. Install the packages
+-----------------------
+
+Using a virtual environment is recommended but not required.
+
+	python -m pip install -r requirements.txt
+
+
+2. Configure the API
+--------------------
+
+Copy .env.example to .env and fill in the values for your model service. The
+.env file is ignored and must not be included when this folder is shared.
+
+	LLM_BASE_URL=https://api.openai.com/v1
+	LLM_API_KEY=replace-with-your-key
+	LIGHT_LLM_MODEL=gpt-4o-mini
+	HEAVY_LLM_MODEL=gpt-5.2
+
+Any service implementing compatible chat completions and JSON response format
+can be used, including a locally hosted service. For a local service that does
+not require authentication, use the placeholder value required by that service.
+
+
+3. Check the input files
+------------------------
+
+The Codebase folder should contain:
+
+- job_description.txt
+- exactly 10 files whose names end with _Resume.txt
+- main.py, app.py, core.py, and llm_provider.py
+
+The command-line program checks the number of resume files before it starts.
+
+
+4. Run from the command line
+----------------------------
+
+	python main.py --workers 4
+
+Settings may also be supplied without a .env file:
+
+	python main.py --base-url "https://api.openai.com/v1" --api-key "YOUR_API_KEY" --light-model "gpt-4o-mini" --heavy-model "gpt-5.2" --workers 4
+
+When processing finishes, ranked_list.csv is saved in the Codebase folder. It
+contains each candidate's rank, overall score, must-have result, and summary.
+The first run saves structured model responses in llm_cache.json. Later runs
+with the same inputs, prompts, and model names reuse that reviewed baseline.
+
+To intentionally discard the saved baseline and request fresh model responses,
+add --refresh-cache. Review the new ranked_list.csv before using it in a report.
+
+
+5. Run the graphical interface
+------------------------------
+
+After creating .env, start Streamlit:
+
+	python -m streamlit run app.py
+
+Streamlit normally opens the application automatically. If it does not, open
+http://localhost:8501 in a browser. Upload the job description and resumes,
+leave Candidates to score at 10, and select Run candidate ranking.
+
+
+Common issues
+-------------
+
+Model not found
+	Check that LIGHT_LLM_MODEL and HEAVY_LLM_MODEL match names exposed by the API.
+
+Authentication failed
+	Check that LLM_BASE_URL and LLM_API_KEY belong to the same model service.
+
+Rate limit reached
+	Use 2 workers instead of 4 by setting LLM_MAX_WORKERS=2 or passing --workers 2.
+
+Port 8501 is already in use
+	Start the GUI on another port:
+
+	python -m streamlit run app.py --server.port 8502
+
+Missing Python package
+	Run the installation command again from the Codebase folder.
+
+
+Keep credentials private
+------------------------
+
+Never write a real key into source code, documentation, or .env.example. Keep
+it only in your unshared .env file or temporary environment variables.

@@ -1,0 +1,23 @@
+Priya Shah
+priya.shah@example.com | +1 555-010-3051
+
+SUMMARY
+Data analyst with 4 years of experience delivering commercial and financial reporting for cross-functional teams.
+
+SKILLS
+SQL, Power BI, Excel, Python, pandas, statistics, data validation, presentation
+
+EXPERIENCE
+Data Analyst, Meridian Retail | 2022-present
+- Built Power BI dashboards for sales, margin, and inventory performance.
+- Wrote SQL using complex joins and window functions against a cloud warehouse.
+- Automated monthly Excel reporting with Power Query and Python.
+- Presented weekly findings and recommendations to finance and sales leaders.
+- Designed and analyzed A/B tests for promotional campaigns.
+
+Reporting Analyst, City Distribution | 2020-2022
+- Reconciled financial data and created repeatable Excel reporting workflows.
+- Improved data-quality checks and documented metric definitions.
+
+EDUCATION
+BSc Economics, Western College, 2020

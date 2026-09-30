@@ -1,0 +1,1632 @@
+{
+  "012bf7704f166f8e6ae8bae11d625b0e1fdfaedef2372a33df18304e762fb25d": {
+    "scores": [
+      {
+        "evidence": "\"Backend engineer with 7 years of experience\"; roles include Junior Software Engineer, Software Engineer, Lead Backend Engineer (2022-present).",
+        "reasoning": "Resume explicitly states 7 years of professional backend/software engineering experience.",
+        "requirement_id": "R1",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Python\"; Summary: \"7 years of experience building Python services\"; Experience includes FastAPI services and Python tools.",
+        "reasoning": "Multiple sections show sustained, primary use of Python in production.",
+        "requirement_id": "R2",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"pytest\"; Experience: \"Introduced typed Python, pytest coverage gates\".",
+        "reasoning": "Direct evidence of using pytest and enforcing test coverage in a professional setting.",
+        "requirement_id": "R3",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"mypy\"; Experience: \"Introduced typed Python\".",
+        "reasoning": "Use of mypy and introduction of typed Python indicates type-safe design experience.",
+        "requirement_id": "R4",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"FastAPI\"; Experience: \"Designed FastAPI services supporting 2 million requests per day.\"",
+        "reasoning": "Explicit production FastAPI REST service design at scale.",
+        "requirement_id": "R5",
+        "score": 1.0
+      },
+      {
+        "evidence": "No mention of Flask in skills or experience.",
+        "reasoning": "Resume provides no evidence of Flask usage.",
+        "requirement_id": "R6",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"Django\"; Experience: \"Built Django APIs backed by PostgreSQL and Kafka.\"",
+        "reasoning": "Direct production experience building APIs with Django.",
+        "requirement_id": "R7",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"SQL\"; Experience includes \"Django APIs backed by PostgreSQL\" and data workloads.",
+        "reasoning": "SQL is listed and implied through PostgreSQL-backed API work, though no detailed SQL responsibilities are described.",
+        "requirement_id": "R8",
+        "score": 0.8
+      },
+      {
+        "evidence": "Skills: \"PostgreSQL\"; Experience: \"Built Django APIs backed by PostgreSQL\".",
+        "reasoning": "Explicit hands-on experience with PostgreSQL in an application context.",
+        "requirement_id": "R9",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Docker\"; Experience: \"Containerized services with Docker\".",
+        "reasoning": "Direct evidence of deploying/packaging services with Docker.",
+        "requirement_id": "R10",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Azure\"; Experience: \"Led the migration of data workloads to Azure Kubernetes Service.\"",
+        "reasoning": "Clear practical familiarity with Azure infrastructure via AKS migration leadership.",
+        "requirement_id": "R11",
+        "score": 1.0
+      },
+      {
+        "evidence": "No mention of AWS in skills or experience.",
+        "reasoning": "Resume contains no AWS-related evidence.",
+        "requirement_id": "R12",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"GitHub Actions\"; Experience: \"automated CI/CD checks\" and \"pytest coverage gates\".",
+        "reasoning": "Direct CI/CD pipeline experience using GitHub Actions and automated checks.",
+        "requirement_id": "R13",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Kubernetes\"; Experience: \"Azure Kubernetes Service\" migration.",
+        "reasoning": "Hands-on Kubernetes experience is explicitly stated.",
+        "requirement_id": "R14",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Kafka\"; Experience: \"Built Django APIs backed by PostgreSQL and Kafka.\"",
+        "reasoning": "Kafka experience is explicit, though details about event-driven design depth are limited.",
+        "requirement_id": "R15",
+        "score": 0.9
+      },
+      {
+        "evidence": "Experience: \"Mentored four engineers\".",
+        "reasoning": "Direct mentoring experience is explicitly stated.",
+        "requirement_id": "R16",
+        "score": 1.0
+      },
+      {
+        "evidence": "Experience: \"facilitated architecture reviews\"; Summary: \"Experienced technical lead\".",
+        "reasoning": "Facilitating architecture reviews strongly indicates leading technical design discussions.",
+        "requirement_id": "R17",
+        "score": 1.0
+      }
+    ],
+    "summary": "The resume strongly matches most core requirements, including 7 years of experience, Python, testing, typing (mypy), FastAPI/Django APIs, PostgreSQL, Docker, Azure, CI/CD, Kubernetes, Kafka, and leadership/mentoring. Gaps are Flask and AWS, and SQL depth is implied but not described in detail."
+  },
+  "1d783fa9f6d7f4b1aee522b2fbc67dd260a3d1f890d4332ce6d74d13f1467388": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "The resume contains no mention of Python or the OpenAI Python library (or any version).",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not reference python-dotenv or any environment variable management in Python.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "There is no evidence of PDF processing or use of the pypdf library.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume provides no indication of DOCX text extraction or use of docx2txt.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention Streamlit or any Python web app development.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention pandas or any Python-based data manipulation/analysis.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume describes a senior Java/Spring Boot engineer with cloud/container and messaging pipeline experience. It provides no resume evidence of Python or any of the required Python libraries and versions."
+  },
+  "2a96b6a401dc6af89cb8781eae35674bc578b6fb314733cd09441afc13cb69cd": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "Resume lists Python but does not mention the OpenAI Python library or any version.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume provides no evidence of using python-dotenv or environment variable management via that library.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention pypdf or any PDF processing experience.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention docx2txt or DOCX text extraction work.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not reference Streamlit or building web applications with it.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention pandas or data manipulation/analysis, nor any pandas version.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume demonstrates general Python-based QA automation experience (pytest, Selenium/Playwright) but provides no evidence for any of the specified libraries or required versions. All listed must-have requirements are unmet based on the provided resume content."
+  },
+  "36046563cff4f806ae53bd794ce7c008c1d9e67721bb275a6e4c6605f0bc5968": {
+    "requirements": [
+      {
+        "category": "experience",
+        "must_have": true,
+        "text": "At least 5 years of professional software engineering experience",
+        "weight": 5
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Strong Python experience",
+        "weight": 5
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Experience with testing in Python",
+        "weight": 4
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Experience with type-safe application design in Python",
+        "weight": 4
+      },
+      {
+        "category": "experience",
+        "must_have": true,
+        "text": "Production experience building REST APIs with FastAPI",
+        "weight": 4
+      },
+      {
+        "category": "experience",
+        "must_have": true,
+        "text": "Production experience building REST APIs with Flask",
+        "weight": 4
+      },
+      {
+        "category": "experience",
+        "must_have": true,
+        "text": "Production experience building REST APIs with Django",
+        "weight": 4
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Solid SQL skills",
+        "weight": 4
+      },
+      {
+        "category": "experience",
+        "must_have": true,
+        "text": "Experience with PostgreSQL",
+        "weight": 4
+      },
+      {
+        "category": "experience",
+        "must_have": true,
+        "text": "Experience deploying containerized services with Docker",
+        "weight": 4
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Familiarity with cloud infrastructure on Azure",
+        "weight": 3
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Familiarity with cloud infrastructure on AWS",
+        "weight": 3
+      },
+      {
+        "category": "skill",
+        "must_have": false,
+        "text": "Experience with CI/CD pipelines",
+        "weight": 3
+      },
+      {
+        "category": "skill",
+        "must_have": false,
+        "text": "Experience with Kubernetes",
+        "weight": 3
+      },
+      {
+        "category": "skill",
+        "must_have": false,
+        "text": "Knowledge of event-driven systems such as Kafka",
+        "weight": 3
+      },
+      {
+        "category": "responsibility",
+        "must_have": false,
+        "text": "Experience mentoring engineers",
+        "weight": 3
+      },
+      {
+        "category": "responsibility",
+        "must_have": false,
+        "text": "Experience leading technical design discussions",
+        "weight": 3
+      }
+    ],
+    "summary": "Seeking a Senior Python Engineer to develop reliable backend services for an analytics platform, design APIs, improve data workflows, review code, and mentor junior engineers.",
+    "title": "Senior Python Engineer"
+  },
+  "3f732ef2062264ffa18e8aeca99d4e3b3a4d2081bbfef700f1e7394bc6641209": {
+    "scores": [
+      {
+        "evidence": "\"Platform engineer with 6 years of experience operating cloud services and developer platforms\"",
+        "reasoning": "Resume explicitly states 6 years of professional experience, exceeding 5 years.",
+        "requirement_id": "R1",
+        "score": 1.0
+      },
+      {
+        "evidence": "\"including 4 years writing production Python\"; Skills: \"Python\"; Experience includes \"Built Flask APIs\" and \"Created Python scripts\"",
+        "reasoning": "Shows multiple years of production Python usage, though not the full 5+ years solely in Python.",
+        "requirement_id": "R2",
+        "score": 0.8
+      },
+      {
+        "evidence": "\"Added integration tests and GitLab CI quality gates for Python repositories.\"",
+        "reasoning": "Direct evidence of Python testing work via integration tests, but no mention of specific frameworks (e.g., pytest) or breadth.",
+        "requirement_id": "R3",
+        "score": 0.8
+      },
+      {
+        "evidence": "",
+        "reasoning": "No resume evidence of type-safe Python design (e.g., type hints, mypy, Pydantic typing practices).",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of FastAPI.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"Flask\"; \"Built Flask APIs used by internal deployment and observability tools.\"",
+        "reasoning": "Explicitly built Flask APIs in a professional role, indicating production usage.",
+        "requirement_id": "R6",
+        "score": 1.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Django.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"PostgreSQL\"; \"administered PostgreSQL databases.\"",
+        "reasoning": "PostgreSQL administration implies SQL usage, but there is no direct statement of SQL querying/design skill depth.",
+        "requirement_id": "R8",
+        "score": 0.6
+      },
+      {
+        "evidence": "Skills: \"PostgreSQL\"; \"administered PostgreSQL databases.\"",
+        "reasoning": "Clear, direct PostgreSQL experience in skills and work history.",
+        "requirement_id": "R9",
+        "score": 0.9
+      },
+      {
+        "evidence": "Skills: \"Docker\"; \"Containerized legacy applications\"",
+        "reasoning": "Direct experience deploying/packaging services with Docker through containerization work.",
+        "requirement_id": "R10",
+        "score": 1.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Azure.",
+        "requirement_id": "R11",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"AWS\"; \"Operated Kubernetes services on AWS and automated infrastructure with Terraform.\"",
+        "reasoning": "Strong evidence of AWS cloud infrastructure experience.",
+        "requirement_id": "R12",
+        "score": 0.9
+      },
+      {
+        "evidence": "Skills: \"GitLab CI\"; \"Added integration tests and GitLab CI quality gates for Python repositories.\"",
+        "reasoning": "Direct CI/CD pipeline experience via GitLab CI implementation and quality gates.",
+        "requirement_id": "R13",
+        "score": 0.9
+      },
+      {
+        "evidence": "Skills: \"Kubernetes\"; \"Operated Kubernetes services on AWS\"",
+        "reasoning": "Direct Kubernetes operations experience in a professional role.",
+        "requirement_id": "R14",
+        "score": 0.9
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Kafka or other event-driven systems.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No evidence of mentoring engineers.",
+        "requirement_id": "R16",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No explicit evidence of leading technical design discussions.",
+        "requirement_id": "R17",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume strongly matches core platform/backend requirements around Flask APIs, Docker, Kubernetes, AWS, PostgreSQL, and CI/CD, with several years of production Python and some testing experience. Key gaps for this specific Senior Python Engineer role are FastAPI/Django, type-safe Python design, Azure, event-driven systems, and explicit leadership/mentoring/design facilitation evidence."
+  },
+  "4ac0e8c5923833a1e8e935ab775f24871d55a4fd19936ad91ea522e7ff7eaeb8": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention the OpenAI Python library or any version-specific experience.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume provides no evidence of using python-dotenv or environment-variable management via that library.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not reference pypdf or any PDF processing work.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention docx2txt or DOCX text extraction experience.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not include Streamlit or web app development using that framework.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention pandas or data manipulation/analysis using that library.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume shows general production Python experience (Flask APIs, scripting, CI), but none of the required specific libraries are evidenced. No version-specific proof is provided for any of the listed requirements."
+  },
+  "5ca0fdb33a17bbca7b0464cb2eb643a8e3730afe4503ecd7f78b19b9ba5c3bab": {
+    "scores": [
+      {
+        "evidence": "\"Senior Java engineer with 8 years of experience\"; roles from 2020-present and prior at Delta Commerce.",
+        "reasoning": "Resume explicitly states 8 years of professional experience, exceeding the 5-year requirement.",
+        "requirement_id": "R1",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills and experience list Java/Spring Boot; no Python mentioned.",
+        "reasoning": "There is no evidence of Python experience.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Python testing frameworks or testing in Python.",
+        "reasoning": "Testing experience in Python is not evidenced.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Python type-safety practices (e.g., type hints, mypy, pydantic typing).",
+        "reasoning": "Type-safe application design in Python is not evidenced.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of FastAPI.",
+        "reasoning": "No production FastAPI REST API experience is shown.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Flask.",
+        "reasoning": "No production Flask REST API experience is shown.",
+        "requirement_id": "R6",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Django.",
+        "reasoning": "No production Django REST API experience is shown.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"SQL\"; Experience references services backed by Oracle.",
+        "reasoning": "SQL is explicitly listed and implied in database-backed service work, though depth is not demonstrated.",
+        "requirement_id": "R8",
+        "score": 0.7
+      },
+      {
+        "evidence": "Databases mentioned: Oracle; no PostgreSQL reference.",
+        "reasoning": "PostgreSQL experience is not evidenced.",
+        "requirement_id": "R9",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"Docker\"; Experience: \"Deployed containerized services to Azure Kubernetes Service.\"",
+        "reasoning": "Containerized deployment experience with Docker is directly indicated.",
+        "requirement_id": "R10",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Azure\"; Experience: \"Deployed containerized services to Azure Kubernetes Service.\"",
+        "reasoning": "Direct professional experience with Azure infrastructure is shown via AKS deployments.",
+        "requirement_id": "R11",
+        "score": 0.9
+      },
+      {
+        "evidence": "No mention of AWS.",
+        "reasoning": "AWS familiarity is not evidenced.",
+        "requirement_id": "R12",
+        "score": 0.0
+      },
+      {
+        "evidence": "\"Maintained Jenkins deployment pipelines.\"",
+        "reasoning": "Maintaining Jenkins deployment pipelines is strong evidence of CI/CD exposure.",
+        "requirement_id": "R13",
+        "score": 0.8
+      },
+      {
+        "evidence": "Skills: \"Kubernetes\"; Experience: \"Deployed ... to Azure Kubernetes Service.\"",
+        "reasoning": "Kubernetes experience is directly stated and used in production deployments.",
+        "requirement_id": "R14",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Kafka\"; Experience: \"Built Java services backed by Oracle and Kafka.\"",
+        "reasoning": "Kafka is explicitly used in the candidate\u2019s services, indicating event-driven system experience.",
+        "requirement_id": "R15",
+        "score": 0.9
+      },
+      {
+        "evidence": "\"Led code reviews and mentored three junior developers.\"",
+        "reasoning": "Direct mentoring of junior developers is explicitly stated.",
+        "requirement_id": "R16",
+        "score": 0.9
+      },
+      {
+        "evidence": "\"Designed Spring Boot APIs\" and \"Led code reviews\" (no explicit design discussion facilitation mentioned).",
+        "reasoning": "Design work is shown, but leading technical design discussions is not explicitly evidenced.",
+        "requirement_id": "R17",
+        "score": 0.4
+      }
+    ],
+    "summary": "The candidate strongly matches senior engineering tenure, containerization, Kubernetes/Azure, CI/CD (Jenkins), Kafka, and mentoring, with some evidence of SQL. There is no resume evidence for Python, Python testing/type-safety, or REST API development using FastAPI/Flask/Django, and no PostgreSQL or AWS experience is shown."
+  },
+  "69534c5de67bc1e904ca2cf02efde066ad95ac622542aa7a28d4a9f0f9d695dc": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention the OpenAI Python library or any version.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention python-dotenv or environment variable management tooling.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention pypdf or any PDF processing work/libraries.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention docx2txt or DOCX text extraction work/libraries.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention Streamlit or building web applications in Python.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "SKILLS: \"Python, pandas\"",
+        "reasoning": "The resume indicates pandas skill but provides no evidence of using pandas at version 2.2+ or in specific projects.",
+        "requirement_id": "R6",
+        "score": 0.2
+      }
+    ],
+    "summary": "The resume shows general Python and pandas exposure in a data analyst context but provides no version-specific evidence. None of the required libraries (OpenAI, python-dotenv, pypdf, docx2txt, Streamlit) are mentioned."
+  },
+  "8b93c04e9fb5c7d5519f2b577a123fec25089f54911e5424dc67241e2ad27e73": {
+    "requirements": [
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Experience with OpenAI Python library version 1.30 or higher",
+        "weight": 4
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Familiarity with python-dotenv library version 1.0 or higher for environment variable management",
+        "weight": 3
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Experience using pypdf library version 4.2 or higher for PDF processing",
+        "weight": 3
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Experience using docx2txt library version 0.8 or higher for extracting text from DOCX files",
+        "weight": 3
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Experience with Streamlit library version 1.36 or higher for building web applications",
+        "weight": 4
+      },
+      {
+        "category": "skill",
+        "must_have": true,
+        "text": "Experience with pandas library version 2.2 or higher for data manipulation and analysis",
+        "weight": 4
+      }
+    ],
+    "summary": "Seeking a Python developer proficient in various Python libraries and tools including OpenAI API, environment variable management, PDF and DOCX text extraction, web app development with Streamlit, and data manipulation with Pandas.",
+    "title": "Python Developer"
+  },
+  "8de7fdba6b30bfa72f6f7dcc077fbb278c273b5a988e347878f3bc0fac250139": {
+    "scores": [
+      {
+        "evidence": "\"Quality assurance engineer with 6 years of experience\"; Senior QA Engineer (2020-present) plus prior QA Analyst role.",
+        "reasoning": "Resume explicitly states 6 years of professional experience in a software engineering-adjacent role (QA/test automation).",
+        "requirement_id": "R1",
+        "score": 1.0
+      },
+      {
+        "evidence": "Skills: \"Python\"; \"Developed Python and pytest automation for web and REST API products.\"",
+        "reasoning": "Shows meaningful professional Python use for automation and API testing, but not clear general software/backend development depth.",
+        "requirement_id": "R2",
+        "score": 0.7
+      },
+      {
+        "evidence": "Skills: \"pytest\"; \"Developed Python and pytest automation\".",
+        "reasoning": "Direct, strong evidence of Python testing experience with pytest.",
+        "requirement_id": "R3",
+        "score": 1.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of type-safe design practices (e.g., type hints, mypy, pydantic typing discipline) in Python.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of FastAPI or building production REST APIs.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Flask or building production REST APIs.",
+        "requirement_id": "R6",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Django or building production REST APIs.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No SQL skills or database querying work is described.",
+        "requirement_id": "R8",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No PostgreSQL experience is mentioned.",
+        "requirement_id": "R9",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"Docker\"; \"Maintained ... Docker-based test environments.\"",
+        "reasoning": "Demonstrates hands-on Docker use for containerized environments, though not clearly deployment of production services.",
+        "requirement_id": "R10",
+        "score": 0.8
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Azure infrastructure experience is mentioned.",
+        "requirement_id": "R11",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No AWS infrastructure experience is mentioned.",
+        "requirement_id": "R12",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"Jenkins\"; \"Maintained Jenkins pipelines\".",
+        "reasoning": "Direct evidence of maintaining CI/CD pipelines using Jenkins.",
+        "requirement_id": "R13",
+        "score": 0.9
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Kubernetes experience is mentioned.",
+        "requirement_id": "R14",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Kafka or event-driven systems experience is mentioned.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "\"Led test planning and coached two QA analysts.\"",
+        "reasoning": "Shows mentoring/coaching experience, but limited scope and within QA.",
+        "requirement_id": "R16",
+        "score": 0.6
+      },
+      {
+        "evidence": "\"Led test planning\".",
+        "reasoning": "Some leadership in planning, but no explicit technical design discussion leadership is described.",
+        "requirement_id": "R17",
+        "score": 0.3
+      }
+    ],
+    "summary": "The resume strongly supports Python-based test automation, pytest testing, Docker usage for test environments, and Jenkins pipeline maintenance, with 6 years of QA experience. It lacks evidence for backend API development (FastAPI/Flask/Django), type-safe Python design, SQL/PostgreSQL, cloud (Azure/AWS), Kubernetes, Kafka, and technical design leadership."
+  },
+  "908b2e9bec5108efc6589a66d32b38401fd53b3629ba443fe3a04df4070cbbbe": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "The resume provides no mention of OpenAI, Python, or any related library experience.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "There is no evidence of using python-dotenv or managing environment variables in Python.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not reference PDF processing or the pypdf library.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No experience with DOCX text extraction or docx2txt is shown.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Streamlit or any web application development experience is not mentioned.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume mentions Excel but contains no evidence of pandas or Python-based data manipulation.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume reflects operations/project coordination experience and office tools rather than Python development. None of the required Python libraries or specified versions are evidenced."
+  },
+  "924302d801dbcc94041d95a6c0dbcbb303208ca8908595822cafa7e45f35a8ad": {
+    "scores": [
+      {
+        "evidence": "\"Data analyst with 4 years of experience\"; roles shown from 2022-present and prior Reporting Analyst.",
+        "reasoning": "Resume indicates 4 years and in analyst roles, not 5+ years of professional software engineering.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills list includes \"Python, pandas\" and experience includes \"Python\" for automating monthly Excel reporting.",
+        "reasoning": "Python is used for automation/analysis, but there is no evidence of strong software-engineering-level Python development.",
+        "requirement_id": "R2",
+        "score": 0.2
+      },
+      {
+        "evidence": "No mention of pytest/unit tests/test frameworks or automated testing practices.",
+        "reasoning": "Resume provides no evidence of testing in Python.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of type hints, mypy/pyright, Pydantic typing, or type-safe design.",
+        "reasoning": "There is no resume evidence of type-safe application design in Python.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of FastAPI or building REST APIs.",
+        "reasoning": "No evidence of FastAPI REST API production experience.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Flask or building REST APIs.",
+        "reasoning": "No evidence of Flask REST API production experience.",
+        "requirement_id": "R6",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Django or building REST APIs.",
+        "reasoning": "No evidence of Django REST API production experience.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "\"Wrote SQL using complex joins and window functions\"; Skills include \"SQL\".",
+        "reasoning": "Direct evidence of advanced SQL usage, though not in an application engineering context.",
+        "requirement_id": "R8",
+        "score": 0.8
+      },
+      {
+        "evidence": "Mentions \"cloud warehouse\" but no database technology named; no \"PostgreSQL\" listed.",
+        "reasoning": "PostgreSQL is not referenced.",
+        "requirement_id": "R9",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Docker or containerization.",
+        "reasoning": "No evidence of deploying containerized services with Docker.",
+        "requirement_id": "R10",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Azure.",
+        "reasoning": "No evidence of familiarity with Azure cloud infrastructure.",
+        "requirement_id": "R11",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of AWS.",
+        "reasoning": "No evidence of familiarity with AWS cloud infrastructure.",
+        "requirement_id": "R12",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of CI/CD, pipelines, GitHub Actions, GitLab CI, Jenkins, etc.",
+        "reasoning": "No evidence of CI/CD pipeline experience.",
+        "requirement_id": "R13",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Kubernetes.",
+        "reasoning": "No evidence of Kubernetes experience.",
+        "requirement_id": "R14",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of Kafka or event-driven systems.",
+        "reasoning": "No evidence of event-driven systems knowledge.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mentoring/coaching responsibilities described.",
+        "reasoning": "No evidence of mentoring engineers.",
+        "requirement_id": "R16",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of leading technical design discussions; experience focuses on reporting/analysis presentations.",
+        "reasoning": "Presenting findings is not the same as leading technical design discussions, and no design leadership is stated.",
+        "requirement_id": "R17",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume aligns with SQL-heavy data analysis work and some Python automation, but it does not show the core backend engineering requirements (Python API frameworks, testing, typing, Docker, cloud). Overall fit for a Senior Python Engineer role is low based on provided evidence."
+  },
+  "a8ba0b25bde1e8630b7955c037abe1a780e77865d26f741fa99f4b16b8538391": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention the OpenAI Python library or any related version experience.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention python-dotenv or environment variable management tooling.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "There is no evidence of using pypdf or any PDF processing libraries.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention docx2txt or DOCX text extraction work.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention Streamlit or building Streamlit web applications.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention pandas or data manipulation/analysis with it, nor any version information.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume shows general Python backend experience with FastAPI, Docker, PostgreSQL, and testing/CI. It provides no explicit evidence for any of the specified libraries or required minimum versions."
+  },
+  "bba48b80d03a757472856c0cd3bf52e6e650e34f8f094dcb63081b154f2fe9c7": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention OpenAI Python library or any specific version.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention python-dotenv or environment variable management tooling.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume provides no evidence of using pypdf or PDF processing libraries.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention docx2txt or DOCX text extraction experience.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention Streamlit or building apps with it.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention pandas or data manipulation/analysis work with it.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume shows general Python/Flask experience but contains no direct evidence for any of the required libraries or specified versions. All requirements score 0.0 due to absence of explicit mentions."
+  },
+  "bc253f4efaea8795b965e0ff3c1e6840bb437423facf6be4c51b889c65a0ac97": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention the OpenAI Python library or any version information.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention python-dotenv or environment variable management via that library.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume provides no evidence of using pypdf or any PDF processing library/version.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention docx2txt or DOCX text extraction tooling.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention Streamlit or building web apps with that framework/version.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention pandas or any data manipulation/analysis library/version.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume shows strong general Python backend engineering experience (FastAPI/Django, Kubernetes, CI/CD) but contains no explicit evidence for any of the required specific libraries or versions. As written, it does not demonstrate direct matches to the six must-have requirements."
+  },
+  "c0ebd7300c133c9d2cfcb155c7aecb3169eae9d3ace6df085c20c354f648d1fc": {
+    "scores": [
+      {
+        "evidence": "\"Operations coordinator with 5 years of experience\"; roles listed: Senior Operations Coordinator (2021-present), Project Assistant (dates not provided).",
+        "reasoning": "Resume shows 5 years of operations experience but does not evidence 5+ years of professional software engineering.",
+        "requirement_id": "R1",
+        "score": 0.2
+      },
+      {
+        "evidence": "No Python mentioned in skills, summary, or experience.",
+        "reasoning": "There is no resume evidence of Python experience.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "No testing tools or practices mentioned.",
+        "reasoning": "Python testing experience is not evidenced.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mention of type hints, mypy, pyright, or typed design.",
+        "reasoning": "No evidence of type-safe Python application design.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "No FastAPI mentioned.",
+        "reasoning": "No evidence of building REST APIs with FastAPI in production.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "No Flask mentioned.",
+        "reasoning": "No evidence of building REST APIs with Flask in production.",
+        "requirement_id": "R6",
+        "score": 0.0
+      },
+      {
+        "evidence": "No Django mentioned.",
+        "reasoning": "No evidence of building REST APIs with Django in production.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "No SQL mentioned.",
+        "reasoning": "No evidence of SQL skills.",
+        "requirement_id": "R8",
+        "score": 0.0
+      },
+      {
+        "evidence": "No PostgreSQL mentioned.",
+        "reasoning": "No evidence of PostgreSQL experience.",
+        "requirement_id": "R9",
+        "score": 0.0
+      },
+      {
+        "evidence": "No Docker mentioned.",
+        "reasoning": "No evidence of deploying containerized services with Docker.",
+        "requirement_id": "R10",
+        "score": 0.0
+      },
+      {
+        "evidence": "No Azure mentioned.",
+        "reasoning": "No evidence of familiarity with Azure cloud infrastructure.",
+        "requirement_id": "R11",
+        "score": 0.0
+      },
+      {
+        "evidence": "No AWS mentioned.",
+        "reasoning": "No evidence of familiarity with AWS cloud infrastructure.",
+        "requirement_id": "R12",
+        "score": 0.0
+      },
+      {
+        "evidence": "No CI/CD mentioned.",
+        "reasoning": "No evidence of CI/CD pipeline experience.",
+        "requirement_id": "R13",
+        "score": 0.0
+      },
+      {
+        "evidence": "No Kubernetes mentioned.",
+        "reasoning": "No evidence of Kubernetes experience.",
+        "requirement_id": "R14",
+        "score": 0.0
+      },
+      {
+        "evidence": "No Kafka or event-driven systems mentioned.",
+        "reasoning": "No evidence of event-driven systems knowledge.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mentoring described.",
+        "reasoning": "No evidence of mentoring engineers.",
+        "requirement_id": "R16",
+        "score": 0.0
+      },
+      {
+        "evidence": "No technical design leadership described.",
+        "reasoning": "No evidence of leading technical design discussions.",
+        "requirement_id": "R17",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume reflects operations/project coordination experience rather than software engineering. There is no evidence for Python, API development, databases, cloud, containers, or engineering leadership requirements for the Senior Python Engineer role."
+  },
+  "c51b91c0201bf921981d8825dd805872ebc2055d8f93ebc6c9a85665baa39246": {
+    "scores": [
+      {
+        "evidence": "\"Full-stack software engineer with 3 years of experience\"; roles from 2023-present and post-2021 graduation.",
+        "reasoning": "Resume indicates ~3 years, which is below the 5+ years required.",
+        "requirement_id": "R1",
+        "score": 0.2
+      },
+      {
+        "evidence": "Skills list includes \"Python\"; experience includes \"Maintained a small Flask service\".",
+        "reasoning": "Python is listed and used via Flask maintenance, but evidence suggests limited depth/extent.",
+        "requirement_id": "R2",
+        "score": 0.6
+      },
+      {
+        "evidence": "\"wrote integration tests\" for a Flask service.",
+        "reasoning": "Direct testing experience is shown, though only integration tests are explicitly mentioned.",
+        "requirement_id": "R3",
+        "score": 0.7
+      },
+      {
+        "evidence": "",
+        "reasoning": "No evidence of type-safe Python design (e.g., type hints, mypy/pyright, pydantic typing practices) is provided.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "FastAPI is not mentioned anywhere in the resume.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills include \"Flask\"; \"Maintained a small Flask service\".",
+        "reasoning": "Shows Flask service work but does not clearly state building production REST APIs with Flask end-to-end.",
+        "requirement_id": "R6",
+        "score": 0.7
+      },
+      {
+        "evidence": "",
+        "reasoning": "Django is not mentioned anywhere in the resume.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "\"maintained MySQL queries\".",
+        "reasoning": "Working with SQL queries suggests baseline SQL skills, but no complexity or breadth is described.",
+        "requirement_id": "R8",
+        "score": 0.6
+      },
+      {
+        "evidence": "",
+        "reasoning": "PostgreSQL is not mentioned; only MySQL is referenced.",
+        "requirement_id": "R9",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills include \"Docker\"; \"Deployed Docker containers to AWS\".",
+        "reasoning": "Clear evidence of deploying containerized services using Docker.",
+        "requirement_id": "R10",
+        "score": 0.8
+      },
+      {
+        "evidence": "",
+        "reasoning": "Azure is not mentioned anywhere in the resume.",
+        "requirement_id": "R11",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills include \"AWS\"; \"Deployed Docker containers to AWS using an existing CI pipeline.\"",
+        "reasoning": "Demonstrates practical exposure to AWS, though scope is limited to deployments using an existing pipeline.",
+        "requirement_id": "R12",
+        "score": 0.7
+      },
+      {
+        "evidence": "\"using an existing CI pipeline\".",
+        "reasoning": "Indicates involvement with CI/CD but not ownership or building pipelines.",
+        "requirement_id": "R13",
+        "score": 0.5
+      },
+      {
+        "evidence": "",
+        "reasoning": "Kubernetes is not mentioned anywhere in the resume.",
+        "requirement_id": "R14",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Kafka or other event-driven systems are not mentioned.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mentoring or coaching responsibilities are described.",
+        "requirement_id": "R16",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No evidence of leading technical design discussions is provided.",
+        "requirement_id": "R17",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume shows some Python/Flask, testing, Docker, SQL, and AWS exposure, but does not meet the 5+ years experience requirement and lacks FastAPI, Django, PostgreSQL, and type-safe Python design evidence. Senior-level signals like mentoring and leading design discussions are not demonstrated in the provided content."
+  },
+  "c9c9ec0b4465059bce50374924309dead0a352587bc496c9b2d10a2037c65a6f": {
+    "scores": [
+      {
+        "evidence": "\"Python backend developer with 4 years of experience\"; roles listed: 2022-present Backend Developer; Junior Developer at RouteWorks (no dates shown).",
+        "reasoning": "Resume explicitly states 4 years, and missing dates prevent confirming 5+ years.",
+        "requirement_id": "R1",
+        "score": 0.4
+      },
+      {
+        "evidence": "Skills: \"Python\"; Experience: \"Developed FastAPI endpoints\" and \"Built Python automation\".",
+        "reasoning": "Multiple roles and skills directly indicate strong professional Python usage.",
+        "requirement_id": "R2",
+        "score": 0.9
+      },
+      {
+        "evidence": "Skills: \"pytest\"; Experience: \"Added pytest suites\".",
+        "reasoning": "Direct evidence of implementing Python testing with pytest.",
+        "requirement_id": "R3",
+        "score": 0.9
+      },
+      {
+        "evidence": "No mention of typing, mypy, pyright, pydantic typing practices, or type-safe design.",
+        "reasoning": "FastAPI often uses type hints, but the resume does not explicitly demonstrate type-safe application design.",
+        "requirement_id": "R4",
+        "score": 0.2
+      },
+      {
+        "evidence": "Skills: \"FastAPI\"; Experience: \"Developed FastAPI endpoints\".",
+        "reasoning": "Direct evidence of building REST API endpoints with FastAPI in a professional role (implied production).",
+        "requirement_id": "R5",
+        "score": 0.9
+      },
+      {
+        "evidence": "Experience: \"maintained Flask applications.\"",
+        "reasoning": "Shows professional Flask work, but does not explicitly state building REST APIs or production API ownership.",
+        "requirement_id": "R6",
+        "score": 0.7
+      },
+      {
+        "evidence": "No Django mentioned.",
+        "reasoning": "No evidence of Django experience.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"SQL\"; Experience includes \"PostgreSQL data models\" and use of \"SQLAlchemy\".",
+        "reasoning": "SQL is listed and used via ORM/data modeling, but depth of SQL (complex queries/optimization) is not evidenced.",
+        "requirement_id": "R8",
+        "score": 0.7
+      },
+      {
+        "evidence": "Skills: \"PostgreSQL\"; Experience: \"Developed FastAPI endpoints and PostgreSQL data models.\"",
+        "reasoning": "Direct, repeated evidence of PostgreSQL use in backend development.",
+        "requirement_id": "R9",
+        "score": 0.9
+      },
+      {
+        "evidence": "Skills: \"Docker\"; Experience: \"Packaged services in Docker\".",
+        "reasoning": "Clear evidence of deploying/packaging containerized services with Docker.",
+        "requirement_id": "R10",
+        "score": 0.9
+      },
+      {
+        "evidence": "No Azure mentioned.",
+        "reasoning": "No evidence of Azure familiarity.",
+        "requirement_id": "R11",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"AWS Lambda\"; Experience: \"supported AWS deployments.\"",
+        "reasoning": "Shows AWS exposure, though breadth of AWS infrastructure knowledge is not detailed.",
+        "requirement_id": "R12",
+        "score": 0.7
+      },
+      {
+        "evidence": "Skills: \"GitHub Actions\"; Experience: \"Added pytest suites and GitHub Actions workflows.\"",
+        "reasoning": "Direct evidence of CI/CD via GitHub Actions workflows.",
+        "requirement_id": "R13",
+        "score": 0.8
+      },
+      {
+        "evidence": "No Kubernetes mentioned.",
+        "reasoning": "No evidence of Kubernetes experience.",
+        "requirement_id": "R14",
+        "score": 0.0
+      },
+      {
+        "evidence": "No Kafka or event-driven systems mentioned.",
+        "reasoning": "No evidence of Kafka/event-driven systems knowledge.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "No mentoring described.",
+        "reasoning": "No evidence of mentoring engineers.",
+        "requirement_id": "R16",
+        "score": 0.0
+      },
+      {
+        "evidence": "No technical leadership/design discussion facilitation described.",
+        "reasoning": "No evidence of leading technical design discussions.",
+        "requirement_id": "R17",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume strongly matches Python backend API development with FastAPI, PostgreSQL, Docker, testing (pytest), and CI/CD (GitHub Actions), with some AWS exposure. Key gaps are the stated 4 years (not 5+), no explicit type-safe design evidence, and no Azure, Django, Kubernetes, Kafka, or leadership/mentoring details."
+  },
+  "d12dabd288434f9ca35ddc58148fcc84d12b7d75fd9f838e127e2c91ef32e55c": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "The resume does not mention the OpenAI Python library or any version-specific experience.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "There is no evidence of using python-dotenv or managing environment variables via this library.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume contains no mention of pypdf or any PDF processing work.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "The resume provides no indication of docx2txt usage or DOCX text extraction work.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Streamlit is not referenced and no web app development experience using Streamlit is described.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "pandas is not listed in skills or experience and no data manipulation/analysis using pandas is described.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume is focused on product management, roadmapping, analytics, and SQL rather than hands-on Python development. None of the specified Python libraries (or required versions) are evidenced in the provided resume."
+  },
+  "e61dc5fe86f14beaae4ea4e173dcc8b4fd7907d441043cb0acec966ba904298f": {
+    "scores": [
+      {
+        "evidence": "\"Technical product manager with 7 years of experience delivering B2B software and analytics products.\"",
+        "reasoning": "Shows 7 years in product management delivering software, but does not evidence professional software engineering experience.",
+        "requirement_id": "R1",
+        "score": 0.2
+      },
+      {
+        "evidence": "\"Partnered with Python and data engineering teams on API product design.\"",
+        "reasoning": "Mentions collaboration with Python teams but no direct hands-on Python engineering experience is shown.",
+        "requirement_id": "R2",
+        "score": 0.1
+      },
+      {
+        "evidence": "",
+        "reasoning": "No resume evidence of Python testing tools or practices.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No evidence of type-safe Python design (e.g., type hints, mypy, pydantic usage) or related implementation work.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of FastAPI or building REST APIs in production.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Flask or building REST APIs in production.",
+        "requirement_id": "R6",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Django or building REST APIs in production.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"SQL\"; Experience: \"Used SQL to investigate adoption and operational performance.\"",
+        "reasoning": "Demonstrates practical SQL usage, but does not provide depth (complex queries, schema design, optimization) to confirm solid skills.",
+        "requirement_id": "R8",
+        "score": 0.6
+      },
+      {
+        "evidence": "",
+        "reasoning": "No explicit PostgreSQL experience is stated.",
+        "requirement_id": "R9",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Docker or container deployment experience is mentioned.",
+        "requirement_id": "R10",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"Azure DevOps\"",
+        "reasoning": "Azure DevOps indicates some exposure to Azure-related tooling, but no direct cloud infrastructure experience is described.",
+        "requirement_id": "R11",
+        "score": 0.4
+      },
+      {
+        "evidence": "",
+        "reasoning": "No AWS experience is mentioned.",
+        "requirement_id": "R12",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"Azure DevOps\"",
+        "reasoning": "Azure DevOps can be used for CI/CD, but the resume does not explicitly state building or managing pipelines.",
+        "requirement_id": "R13",
+        "score": 0.3
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Kubernetes experience is mentioned.",
+        "requirement_id": "R14",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Kafka or event-driven systems experience is mentioned.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No explicit mentoring or coaching of engineers is described.",
+        "requirement_id": "R16",
+        "score": 0.0
+      },
+      {
+        "evidence": "\"Partnered with Python and data engineering teams on API product design.\"",
+        "reasoning": "Suggests participation in design discussions at a product level, but does not demonstrate leading technical design discussions.",
+        "requirement_id": "R17",
+        "score": 0.2
+      }
+    ],
+    "summary": "The resume reflects a senior product management background with some SQL usage and collaboration with engineering teams, but it does not provide evidence of hands-on Python engineering or API implementation. Most core requirements for a Senior Python Engineer (Python, frameworks, testing, typing, Docker, PostgreSQL, cloud) are not supported by the provided resume."
+  },
+  "ebb072abd7094160619fc23956a5b2f9cace48ea6a608f0d8d61f527196b3e1d": {
+    "scores": [
+      {
+        "evidence": "\"Data engineer with 5 years of experience\"; roles: 2021-present Senior Data Engineer plus prior Data Engineer",
+        "reasoning": "Resume states 5 years of experience, but exact start/end dates for the earlier role are not provided to fully verify 5+ years.",
+        "requirement_id": "R1",
+        "score": 0.8
+      },
+      {
+        "evidence": "Skills: \"Python\"; Experience: \"Built Python and Spark pipelines\" and \"developed Python ingestion services\"",
+        "reasoning": "Multiple roles and skills list indicate substantial professional Python usage, though not specifically application/backend engineering depth.",
+        "requirement_id": "R2",
+        "score": 0.8
+      },
+      {
+        "evidence": "Skills: \"pytest\"; Experience: \"data-quality tests\"",
+        "reasoning": "Direct mention of pytest and test work supports Python testing experience.",
+        "requirement_id": "R3",
+        "score": 0.9
+      },
+      {
+        "evidence": "",
+        "reasoning": "No evidence of type-safe Python design (e.g., type hints, mypy, pydantic models, static typing practices).",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of FastAPI or production REST API development with FastAPI.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Flask or production REST API development with Flask.",
+        "requirement_id": "R6",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mention of Django or production REST API development with Django.",
+        "requirement_id": "R7",
+        "score": 0.0
+      },
+      {
+        "evidence": "Skills: \"SQL\"; Experience: \"Designed PostgreSQL data models\"",
+        "reasoning": "SQL is explicitly listed and supported by database modeling work, though complexity/scale of SQL usage is not detailed.",
+        "requirement_id": "R8",
+        "score": 0.8
+      },
+      {
+        "evidence": "Skills: \"PostgreSQL\"; Experience: \"Designed PostgreSQL data models\"",
+        "reasoning": "Strong direct match with explicit PostgreSQL skills and hands-on design experience.",
+        "requirement_id": "R9",
+        "score": 0.9
+      },
+      {
+        "evidence": "Skills: \"Docker\"; Experience: \"Containerized internal data APIs\"",
+        "reasoning": "Shows Docker-based containerization, though deployment details (e.g., registries, orchestration, production rollout) are not specified.",
+        "requirement_id": "R10",
+        "score": 0.7
+      },
+      {
+        "evidence": "Skills: \"Azure Data Factory, Databricks\"; Experience: \"Built Python and Spark pipelines on Azure Databricks\"",
+        "reasoning": "Clear, repeated Azure platform usage indicates strong familiarity with Azure cloud infrastructure/services.",
+        "requirement_id": "R11",
+        "score": 0.9
+      },
+      {
+        "evidence": "",
+        "reasoning": "No AWS services or infrastructure experience mentioned.",
+        "requirement_id": "R12",
+        "score": 0.0
+      },
+      {
+        "evidence": "Experience: \"automated releases\"",
+        "reasoning": "Automated releases suggest some CI/CD exposure, but no explicit tools/pipelines (e.g., GitHub Actions, Azure DevOps, Jenkins) are described.",
+        "requirement_id": "R13",
+        "score": 0.6
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Kubernetes experience mentioned.",
+        "requirement_id": "R14",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No Kafka or event-driven system experience mentioned.",
+        "requirement_id": "R15",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No mentoring or coaching responsibilities described.",
+        "requirement_id": "R16",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "No evidence of leading technical design discussions is provided.",
+        "requirement_id": "R17",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume strongly supports Python-for-data engineering, SQL/PostgreSQL, Azure, and some Docker/testing exposure, aligning partially with core backend requirements. It lacks direct evidence for FastAPI/Flask/Django REST API production work, type-safe Python design, AWS, Kubernetes/Kafka, and explicit leadership/mentoring."
+  },
+  "f5c41d6325609ea19135eb84214baabe638d86548a3f7c396f13f4d98dac79d3": {
+    "scores": [
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention OpenAI Python library or any version-specific usage.",
+        "requirement_id": "R1",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention python-dotenv or environment variable management libraries.",
+        "requirement_id": "R2",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume provides no evidence of using pypdf or any PDF processing library.",
+        "requirement_id": "R3",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention docx2txt or DOCX text extraction work.",
+        "requirement_id": "R4",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume does not mention Streamlit or building web apps with it.",
+        "requirement_id": "R5",
+        "score": 0.0
+      },
+      {
+        "evidence": "",
+        "reasoning": "Resume lists Python and data engineering tools but does not mention pandas or its version.",
+        "requirement_id": "R6",
+        "score": 0.0
+      }
+    ],
+    "summary": "The resume shows general Python/data engineering experience (Databricks, Spark, Airflow) but no direct evidence for any of the specified libraries. All listed requirements are unverified based on the provided resume content."
+  }
+}
